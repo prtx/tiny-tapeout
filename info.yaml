@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     413686101237123073       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "comparator"      # Project title
+  author:       "prtx"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "comparator"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,8 +15,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "A_IN"
+  ui[1]: "B_IN"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -25,13 +25,13 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "A_OUT"
+  uo[1]: "B_OUT"
   uo[2]: ""
   uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[4]: "LT"
+  uo[5]: "GT"
+  uo[6]: "EQ"
   uo[7]: ""
 
   # Bidirectional pins
